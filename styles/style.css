@@ -8,6 +8,11 @@
   font-size: 18px;
   font-weight: 400;
   background-color: var(--bg-color);
+  background-image: var(--bg-header);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -17,11 +22,6 @@
   align-items: center;
   color: var(--text-accent);
   height: 100vh;
-  background-image: var(--bg-header);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .header::before {
