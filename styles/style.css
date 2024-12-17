@@ -230,8 +230,8 @@
 .title-sub-decor {
   color: var(--color-title-decor);
   font-family: inherit;
+  font-size: inherit;
   background-color: var(--bg-title-decor);
-  font-size: inherit;  
 }
 
 .picture-content {
