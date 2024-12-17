@@ -2,3 +2,37 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --bg-header: url("../images/cover-image-dark.png");
+  --text-accent: #FF0070;
+  --header-padding: 10px;
+  --header-title: #DB00FF;
+  --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --bg-color: #000028;
+  --content-padding: 0 10px;
+  --bg-title-decor: #FF0070;
+  --color-title-decor: #000028;
+  --page-gap: 40px;
+  --color-main: #F1B2CE;
+  --main-gap: 50px;
+  --title-color: #FF0070;
+  --header-border: #ff007f;
+  --absolute-padding: 10px;
+  --color-shadow: #FF0070;
+  --theme-color: #FF0070;
+  --hover-button: rgb(255, 0, 112, 40%);
+  --hover-link: #F1B2CE;
+  --rec-display: block;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-padding: 20px;
+    --absolute-padding: 20px;
+    --header-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --page-gap: 60px;
+    --main-gap: 80px;
+    --content-padding: 0 20px;
+  }
+}
