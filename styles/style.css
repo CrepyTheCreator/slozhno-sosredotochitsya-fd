@@ -5,8 +5,8 @@
   flex-direction: column;
   gap: var(--page-gap);
   font-family: "IBM Plex mono", sans-serif;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   background-color: var(--bg-color);
   background-image: var(--bg-header);
   background-repeat: no-repeat;
@@ -20,15 +20,15 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  color: var(--text-accent);
   height: 100vh;
+  color: var(--text-accent);
 }
 
 .header::before {
   content: '';
-  right: var(--absolute-padding);
-  top: var(--absolute-padding);
   position: absolute;
+  top: var(--absolute-padding);
+  right: var(--absolute-padding);
   width: 25px;
   height: 25px;
   border-top: 1px solid var(--header-border);
@@ -49,15 +49,15 @@
 
 .header__first-decoration {
   position: absolute;
-  display: var(--rec-display);
-  right: var(--absolute-padding);
   top: var(--absolute-padding);
+  right: var(--absolute-padding);
+  display: var(--rec-display);
 }
 
 .header__text-decor { /*скрыть при светлой теме*/
+  padding-right: 29px;
   line-height: 25px;
   text-transform: uppercase;
-  padding-right: 29px;
 }
 
 .header__text-decor::after {
@@ -65,12 +65,12 @@
   position: absolute;
   top: 50%;
   right: 9px;
-  transform: translateY(-50%);
   width: 12px;
   height: 12px;
-  filter: blur(2px);
   border-radius: 50%;
   background-color: #FF0070;
+  filter: blur(2px);
+  transform: translateY(-50%);
 }
 
 .header__theme-menu {
@@ -90,11 +90,11 @@
 }
 
 .header__theme-menu-button {
-  background-color: transparent;
-  border: 1px solid transparent;
-  text-transform: lowercase;
-  padding: 1.5px 13px;
   min-height: 26px;
+  border: 1px solid transparent;
+  padding: 1.5px 13px;
+  text-transform: lowercase;
+  background-color: transparent;
 }
 
 .header__theme-menu-button_active {
@@ -116,11 +116,11 @@
 }
 
 .header_title {
-  font-weight: 700;
+  padding: 0 0 0 var(--header-padding);
   color: var(--header-title);
+  font-weight: 700;
   font-size: var(--header-title-size);
   line-height: 95.7px;
-  padding: 0 0 0 var(--header-padding);
 }
 
 .title-shadow {
@@ -148,10 +148,10 @@
 }
 
 .title-decor {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 700;
   color: var(--color-title-decor);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
   background-color: var(--bg-title-decor);
 }
 
@@ -189,8 +189,8 @@
 }
 
 .title {
-  font-size: inherit;
   color: var(--title-color);
+  font-size: inherit;
 }
 
 .card-list {
@@ -210,8 +210,8 @@
 }
 
 .main-text {
-  font-weight: 400;
   color: var(--color-main);
+  font-weight: 400;
   line-height: 23.45px;
 }
 
@@ -220,18 +220,18 @@
 }
 
 .subtitle-decor {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 400;
   color: var(--color-title-decor);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: inherit;
   background-color: var(--bg-title-decor);
 }
 
 .title-sub-decor {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 700;
   color: var(--color-title-decor);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
   background-color: var(--bg-title-decor);  
 }
 
@@ -258,25 +258,25 @@
   position: relative;
   display: grid;
   grid-template-rows: min-content;
-  align-content: center;
   justify-content: center;
-  background-color: var(--bg-color);
+  align-content: center;
   height: 100vh;
   padding: var(--header-padding);
+  background-color: var(--bg-color);
 }
 
 .footer_title {
-  font-weight: 700;
   color: var(--header-title);
+  font-weight: 700;
   font-size: var(--header-title-size);
   line-height: 95.7px;
 }
 
 .footer::before {
   content: '';
-  right: var(--absolute-padding);
-  top: var(--absolute-padding);
   position: absolute;
+  top: var(--absolute-padding);
+  right: var(--absolute-padding);
   width: 25px;
   height: 25px;
   border-top: 1px solid var(--header-border);
@@ -285,9 +285,9 @@
 
 .footer::after {
   content: '';
-  left: var(--absolute-padding);
-  bottom: var(--absolute-padding);
   position: absolute;
+  bottom: var(--absolute-padding);
+  left: var(--absolute-padding);
   width: 25px;
   height: 25px;
   border-bottom: 1px solid var(--header-border);
@@ -337,13 +337,13 @@
   }
 
   .picture-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas:
     "img1 img1 img2"
     "img3 img4 img2"
     "img3 img5 img5";
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, auto);
-    gap: 22px
+    gap: 22px;
   }
 
   .picture-first {
@@ -373,8 +373,8 @@
   }
 
   .description {
-    padding: 0 var(--header-padding);
     align-items: center;
+    padding: 0 var(--header-padding);
   }
 
   .header__theme-menu {
