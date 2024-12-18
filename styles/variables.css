@@ -22,6 +22,7 @@
   --color-shadow: #FF0070;
   --theme-color: #FF0070;
   --hover-button: rgb(255, 0, 112, 40%);
+  --focus-button: #FF0070;
   --hover-link: #F1B2CE;
   --rec-display: block;
 }
