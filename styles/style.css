@@ -234,7 +234,7 @@
   color: var(--color-title-decor);
   font-family: inherit;
   font-size: inherit;
-  background-color: var(--bg-title-decor);  
+  background-color: var(--bg-title-decor);
 }
 
 .picture-content {
