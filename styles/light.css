@@ -21,7 +21,7 @@
   --theme-color: #353430;
   --hover-button: #32312D66;
   --hover-link: #353430;
-  --focus-buttom: #353430;
+  --focus-button: #353430;
   --rec-display: none;
 }
 
@@ -39,6 +39,7 @@
   --theme-color: #353430;
   --hover-button: #32312D66;
   --hover-link: #353430;
+  --focus-button: #353430;
   --rec-display: none;
   }
 }
