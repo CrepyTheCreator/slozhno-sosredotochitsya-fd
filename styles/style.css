@@ -48,7 +48,7 @@
   border-left: 1px solid var(--header-border);
 }
 
-.header__first-decoration {
+.header__decoration {
   position: absolute;
   top: var(--absolute-padding);
   right: var(--absolute-padding);
@@ -162,26 +162,9 @@
   grid-template-rows: repeat(4, min-content);
   gap: var(--main-gap);
   padding: var(--content-padding);
-  background-color: var(--bg-color);
 }
 
-.main-content-why {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(auto-fit, min-content);
-  grid-auto-rows: min-content;
-  gap: 20px;
-}
-
-.main-content-what {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: repeat(auto-fit, min-content);
-  grid-auto-rows: min-content;
-  gap: 20px;
-}
-
-.main-content-how {
+.content-section {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(auto-fit, min-content);
